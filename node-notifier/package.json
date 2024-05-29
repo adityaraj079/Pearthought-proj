@@ -1,0 +1,22 @@
+{
+  "name": "notifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.3",
+    "aws-sdk": "^2.1628.0",
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "bull": "^4.12.9",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "redis": "^4.6.14"
+  }
+}
